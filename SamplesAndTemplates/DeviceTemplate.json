@@ -1,0 +1,139 @@
+{
+    "@id": "dtmi:ignitionToIotCentral:IoTProxyDeviceTemplate_dk;1",
+    "@type": "Interface",
+    "contents": [
+        {
+            "@id": "dtmi:ignitionToIotCentral:IoTProxyDeviceTemplate_dk:topic;1",
+            "@type": "Telemetry",
+            "displayName": {
+                "en": "topic"
+            },
+            "name": "topic",
+            "schema": {
+                "@id": "dtmi:ignitionToIotCentral:IoTProxyDeviceTemplate_dk:topic:schema;1",
+                "@type": "Object",
+                "fields": [
+                    {
+                        "@id": "dtmi:ignitionToIotCentral:IoTProxyDeviceTemplate_dk:topic:schema:edgeNodeDescriptor;1",
+                        "displayName": {
+                            "en": "edgeNodeDescriptor"
+                        },
+                        "name": "edgeNodeDescriptor",
+                        "schema": "string"
+                    },
+                    {
+                        "@id": "dtmi:ignitionToIotCentral:IoTProxyDeviceTemplate_dk:topic:schema:groupId;1",
+                        "displayName": {
+                            "en": "groupId"
+                        },
+                        "name": "groupId",
+                        "schema": "string"
+                    },
+                    {
+                        "@id": "dtmi:ignitionToIotCentral:IoTProxyDeviceTemplate_dk:topic:schema:edgeNodeId;1",
+                        "displayName": {
+                            "en": "edgeNodeId"
+                        },
+                        "name": "edgeNodeId",
+                        "schema": "string"
+                    },
+                    {
+                        "@id": "dtmi:ignitionToIotCentral:IoTProxyDeviceTemplate_dk:topic:schema:deviceId;1",
+                        "displayName": {
+                            "en": "deviceId"
+                        },
+                        "name": "deviceId",
+                        "schema": "string"
+                    },
+                    {
+                        "@id": "dtmi:ignitionToIotCentral:IoTProxyDeviceTemplate_dk:topic:schema:type;1",
+                        "displayName": {
+                            "en": "type"
+                        },
+                        "name": "type",
+                        "schema": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "@id": "dtmi:ignitionToIotCentral:IoTProxyDeviceTemplate_dk:RInt;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue"
+            ],
+            "displayName": {
+                "en": "RInt"
+            },
+            "name": "RInt",
+            "schema": "double"
+        },
+        {
+            "@id": "dtmi:ignitionToIotCentral:IoTProxyDeviceTemplate_dk:RShort;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue"
+            ],
+            "displayName": {
+                "en": "RShort"
+            },
+            "name": "RShort",
+            "schema": "double"
+        },
+        {
+            "@id": "dtmi:ignitionToIotCentral:IoTProxyDeviceTemplate_dk:RLong;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue"
+            ],
+            "displayName": {
+                "en": "RLong"
+            },
+            "name": "RLong",
+            "schema": "double"
+        },
+        {
+            "@id": "dtmi:ignitionToIotCentral:IoTProxyDeviceTemplate_dk:Ramp;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue"
+            ],
+            "displayName": {
+                "en": "Ramp"
+            },
+            "name": "Ramp",
+            "schema": "double"
+        },
+        {
+            "@id": "dtmi:ignitionToIotCentral:IoTProxyDeviceTemplate_dk:Realistic;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue"
+            ],
+            "displayName": {
+                "en": "Realistic"
+            },
+            "name": "Realistic",
+            "schema": "double"
+        },
+        {
+            "@id": "dtmi:ignitionToIotCentral:IoTProxyDeviceTemplate_dk:Sine;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue"
+            ],
+            "displayName": {
+                "en": "Sine"
+            },
+            "name": "Sine",
+            "schema": "double"
+        }
+    ],
+    "displayName": {
+        "en": "Custom Template from Blank"
+    },
+    "@context": [
+        "dtmi:iotcentral:context;2",
+        "dtmi:dtdl:context;2"
+    ]
+}

@@ -1,0 +1,9 @@
+Time Interval, Browse Path, Value Source, Data Type
+"0","Ramp/Ramp1","ramp(5.0, 123.0, 230.0, true)","Double"
+"0","Random/RandomBoolean1","random(0.0, 1.0, true)","Boolean"
+"0","Random/RandomInteger1","random(0.0, 100.0, true)","Int32"
+"0","Random/RandomLong1","random(0.0, 100.0, true)","Int64"
+"0","Random/RandomShort1","random(0.0, 100.0, true)","Int16"
+"0","ReadOnly/ReadOnlyString2","readonly(SAMPLESTRING)","String"
+"0","Realistic/Realistic0","realistic(100.0, 1.2, 0.06, 0.25, true)","Double"
+"0","Sine/Sine1","sine(10.0, 321.0, 430.0, true)","Float"

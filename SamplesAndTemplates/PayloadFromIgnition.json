@@ -1,0 +1,51 @@
+{
+    "topic": {
+        "namespace": "spBv1.0",
+        "edgeNodeDescriptor": "Edge Group/Edge Node",
+        "groupId": "Edge Group",
+        "edgeNodeId": "Edge Node",
+        "deviceId": "_NSIT_SIMDEV_01_",
+        "type": "DDATA"
+    },
+    "payload": {
+        "timestamp": 1666396812444,
+        "metrics": [
+            {
+                "name": "Random/RandomShort1",
+                "timestamp": 1666396810209,
+                "dataType": "Int16",
+                "value": 0
+            },
+            {
+                "name": "Random/RandomLong1",
+                "timestamp": 1666396810209,
+                "dataType": "Int64",
+                "value": 11
+            },
+            {
+                "name": "Random/RandomInteger1",
+                "timestamp": 1666396810209,
+                "dataType": "Int32",
+                "value": 42
+            },
+            {
+                "name": "Ramp/Ramp1",
+                "timestamp": 1666396810209,
+                "dataType": "Double",
+                "value": 13.215365217391303
+            },
+            {
+                "name": "Realistic/Realistic0",
+                "timestamp": 1666396810209,
+                "dataType": "Double",
+                "value": 99.8365775092735
+            },
+            {
+                "name": "Sine/Sine1",
+                "timestamp": 1666396810209,
+                "dataType": "Float",
+                "value": 77.78996
+            }
+        ]
+    }
+}
