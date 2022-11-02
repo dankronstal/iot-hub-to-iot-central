@@ -1,0 +1,8 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=ignitiontoiothubstg;AccountKey=7Up5jK69P00000000WXkI/Bj6HoB9qn1SXJlkgs0000000000gloFoGf7V7Hf+aMcF/Slm+AAAAbgAWw==;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "CONN_EVENTHUB": "Endpoint=sb://iothub-ns-ignition-t-0000000-00000000.servicebus.windows.net/;SharedAccessKeyName=iothubowner;SharedAccessKey=UD3d3yp/0000000000000000/oOOntHWV0=;EntityPath=ignition-to-iot-hub-proxy"
+  }
+}
