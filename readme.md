@@ -19,7 +19,7 @@ This repo presumes that an environment exists with the following services set up
 Given the above environment, there are a number of things to configure:
 1. Azure IoT Central - Device Template
 2. Azure IoT Central - Device
-. Azure Function
+3. Azure Function
 
 ### Azure IoT Central - Device Template
 Create the device template using an IoT Device type:
