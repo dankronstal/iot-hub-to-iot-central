@@ -1,6 +1,13 @@
 # Summary
 IoTProxy Class - intended to be the simplest possible messaging code between Ignition, IoT Hub, and IoT Central
 
+IoT Central expectes a name/value payload shape, whereas Ignition sends messages in a Sparkplug B schema. IoT Central implements a portion of the JSONPath query language, but limits to named segments as identifiers. This means that if you need to evaluate a segment value conditionally (like: 
+
+    [?(@.name=="SOME NAME")]
+
+for example) then you'll have an issue when parsing the delivered message. The purpose of this proxy is to provide a translation between the message delivered from Ignition and the format expected by IoT Central, as illustrated below:
+<img src="./Assets/Architecture.png" />
+
 Code is far from best practice, but is based on the more complete samples from:
  * https://github.com/Azure/azure-iot-sdk-csharp/tree/main/iothub/device/samples/solutions/PnpDeviceSamples
  * https://github.com/Azure/azure-iot-sdk-csharp/tree/main/iothub/device/samples/solutions/PnpDeviceSamples/Thermostat
@@ -19,7 +26,7 @@ This repo presumes that an environment exists with the following services set up
 Given the above environment, there are a number of things to configure:
 1. Azure IoT Central - Device Template
 2. Azure IoT Central - Device
-. Azure Function
+3. Azure Function
 
 ### Azure IoT Central - Device Template
 Create the device template using an IoT Device type:
